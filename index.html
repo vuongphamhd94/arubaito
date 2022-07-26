@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav--left">
+        <div class="user">
+          <div class="avatar pointer">
+            <img src="image/avatar.jpg" alt="avatar" />
+          </div>
+          <div>
+            <div class="pointer">Trang cá nhân của bạn</div>
+            <div class="user--login pointer">Tên đăng nhập</div>
+          </div>
+        </div>
+        <div id="information">
+          <div class="message pointer">
+            <span class="material-icons"> chat_bubble </span>Tín nhắn
+          </div>
+          <div class="shop pointer">
+            <span class="material-icons"> shopping_cart </span> Theo dõi đơn
+            hàng
+          </div>
+          <div class="post pointer">
+            <span class="material-icons"> share </span>
+            Đăng tin cung cầu
+          </div>
+          <div class="favourite pointer">
+            <span class="material-icons"> favorite </span>
+            Sản phẩm, cơ sở yêu thích
+          </div>
+          <div class="follow pointer">
+            <span class="material-icons"> local_shipping </span>
+            Theo dõi cơ sở
+          </div>
+          <div class="information pointer">
+            <span class="material-icons"> person </span>
+            Thông tin cá nhân
+          </div>
+        </div>
+
+        <div class="leftSub pointer">
+          <span class="material-icons"> home </span> ĐĂNG KÝ CƠ SỞ CỦA BẠN
+        </div>
+      </div>
+      <div class="content">
+        <div class="title">
+          <span class="material-icons"> drive_file_rename_outline </span>
+          Đăng Tin Cung Cầu
+        </div>
+        <div class="form--input">
+          <div class="status">
+            <div class="form--input--title">
+              Loại thông tin <span class="Obligatory">*</span></td>
+            </div>
+            <div>
+              <label> <input type="radio" name="status" />Cần mua </label>
+              <label> <input type="radio" name="status" />Cần bán </label>
+              <label> <input type="radio" name="status" />Tìm đối tác </label>
+            </div>
+          </div>
+          <div class="inp--title">
+            <div class="form--input--title">
+              Tiêu đề<span class="Obligatory">*</span>
+            </div>
+            <div class="w80">
+              <input type="text" id="inp--title" />
+            </div>
+          </div>
+          <div>
+            <div class="form--input--title">
+              Nội dung<span class="Obligatory">*</span>
+            </div>
+            <div class="w80"> 
+              <textarea id="describe" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+
+          <div>
+            <div class="form--input--title">
+              Loại sản phẩm<span class="Obligatory">*</span>
+            </div>
+            <div class="w80">
+              <select>
+                <option>Rau, củ, quả</option>
+                <option>Tôm, cua, cá</option>
+                <option>Thịt gà, thịt lợn</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <div class="form--input--title">
+              Khu vực<span class="Obligatory">*</span>
+            </div>
+            <div class="w80">
+              <select>
+                <option>Chọn Tỉnh/ Huyện/ Xã</option>
+                <option>xã</option>
+                <option>thôn</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <div class="form--input--title">
+              Thời hạn đăng tin<span class="Obligatory">*</span>
+            </div>
+            <div class="w80">
+              <label
+                  ><span class="material-icons"> calendar_month </span>
+                  <input type="text" />
+                </label>
+            </div>
+          </div>
+
+          <div>
+            <div class="form--input--title">
+              Địa chỉ liên hệ<span class="Obligatory">*</span>
+            </div>
+            <div class="w80">
+              <input type="text" />
+            </div>
+          </div>
+
+          <div>
+            <div class="form--input--title">
+              Điện thoại<span class="Obligatory">*</span>
+            </div>
+            <div class="w80">
+              <input type="text" />
+            </div>
+          </div>
+          <div class="form--input--title">
+          <div>
+            <button type="button" class="btn btn-upload pointer">
+              <span class="material-icons"> image </span> Ảnh sản phẩm
+            </button>
+          </div>
+          
+        </div>
+        <button type="button" class="btn btn-submit pointer">Lưu thông tin</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #5d5e68;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #f4f4f4;
+  display: flex;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.nav--left {
+  width: 30%;
+  padding-left: 2rem;
+}
+.content {
+  width: 70%;
+  padding-left: 2rem;
+  background-color: #ffffff;
+}
+.nav--left .user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.nav--left .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.user--login {
+  font-size: 24px;
+}
+.nav--left .avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+.nav--left #information {
+  border-bottom: 1px solid #f37124;
+}
+.nav--left #information > div {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.nav--left #information > div:hover {
+  background-color: aqua;
+}
+.nav--left #information > div span {
+  margin-right: 2rem;
+  color: #999999;
+  padding-left: 0.5rem;
+}
+.nav--left .leftSub {
+  color: #f37124;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+  margin-top: 1rem;
+}
+.nav--left .leftSub span {
+  color: #f37124;
+  margin-right: 2rem;
+}
+
+.content .title {
+  margin: 1rem 0;
+  display: flex;
+  align-items: flex-end;
+}
+.content .title span {
+  color: #f37124;
+  margin-right: 0.5rem;
+}
+.content .form--input {
+  margin-left: 4rem;
+  padding-right: 2rem;
+}
+.content .form--input .Obligatory {
+  color: #f37124;
+}
+.content .form--input > div {
+  display: flex;
+  margin: 2rem 0;
+}
+.content .form--input > div > div:first-child {
+  text-align: right;
+  padding-right: 2rem;
+  width: 20%;
+}
+.content .form--input > div > .w80 {
+  border: 1px solid #666666;
+  width: 80%;
+  min-height: 2.5rem;
+}
+.content .form--input > div > .w80 label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.content .form--input > div > .w80 label span {
+  border-right: 1px solid black;
+  padding: 0 0.5rem;
+}
+.content .form--input > div > .w80 input,
+.content .form--input select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 1rem;
+}
+.content .form--input > div > .w80 input:focus,
+.content .form--input textarea:focus,
+.content .form--input select:focus {
+  outline: 0;
+}
+
+.content .form--input input[type='radio'] {
+  margin-right: 1rem;
+}
+.content .form--input label {
+  padding-right: 3rem;
+}
+.content .form--input select {
+}
+.content .form--input textarea {
+  width: 100%;
+  height: 6rem;
+  resize: none;
+  border: none;
+  padding: 1rem;
+}
+.content .form--input option {
+  height: 2.5rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn-upload {
+  background-color: #f37124;
+  float: right;
+  right: 0;
+}
+.btn-upload span {
+  color: #ffffff;
+  margin-right: 0.5rem;
+}
+.btn-submit {
+  background-color: #59a245;
+  float: right;
+  right: 0;
+  margin-bottom: 2rem;
+}
+.pointer {
+  cursor: pointer;
+}
+.pointer:hover {
+  transform: scale(1.05);
+}
